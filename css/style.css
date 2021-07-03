@@ -1259,6 +1259,7 @@ h6 {
             justify-content: center;
     margin-bottom: 0px;
     overflow: hidden;
+    padding: 20px 10px;
   }
 
   .nav__item::before {
@@ -1325,6 +1326,7 @@ h6 {
     -o-transition: color .5s linear;
     transition: color .5s linear;
     padding: 10px 5px;
+    white-space: nowrap;
   }
 
   .nav__link::before {
