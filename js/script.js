@@ -285,8 +285,6 @@ const progressBarNav = () => {
 	if (percentRatio >=100) {
 		percentRatio = 100;
 	}
-	let anime = document.querySelector('.anime');
-	anime.innerHTML = percentRatio;
 	progressBar.style.setProperty('--width-before', `${percentRatio}%`);
 };
 
